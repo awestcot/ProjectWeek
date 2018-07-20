@@ -1,4 +1,4 @@
-Back to [Projects List](../../README.md#ProjectsList)
+1. Back to [Projects List](../../README.md#ProjectsList)
 
 ## Segmentation, co-registration, and clustering of anatomical and functional respiratory MRI
 
@@ -27,7 +27,11 @@ a 3D slicer tool. As the old pipeline has not been updated in 7 years, we will a
 4. Evaluate different alternatives to k-means clustering for grading ventilation from polarized gas images
 
 ## Progress and Next Steps
-
+1. Completed bridge between slicer and matlab codes, using MatlabBridge.
+2. Enabled importing of different matlab output image types includinng volumes, masks and cluster maps.
+3. Began creating custum segmentation and registration modules to be called into the main pipeline.
+4. Next steps are to continue creation of custum segmentation and registration that will automatically be pulled into the main pipeline.
+5. Next steps are to impliment the final quantification of results, and save into .mat files for future analysis.
 <!--Describe progress and next steps in a few bullet points as you are making progress.-->
 
 # Illustrations
@@ -39,7 +43,7 @@ a 3D slicer tool. As the old pipeline has not been updated in 7 years, we will a
 <!--![Some more images](Example2.jpg)-->
 
 # Background and References
-
+Original paper on registration and segmentation pipeline: https://www.sciencedirect.com/science/article/pii/S1076633211004636
 <!--Use this space for information that may help people better understand your project, like links to papers, source code, or data.-->
 
 - Source code: https://github.com/Tsintsuntsini/Slicer2018
